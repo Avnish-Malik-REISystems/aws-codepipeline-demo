@@ -14,7 +14,7 @@ phases:
     - apt install --no-install-recommends yarn
 
 
-  pre-build:
+  pre_build:
     commands:
     # install dependencies
     - echo installing yarn dependencies...
